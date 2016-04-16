@@ -1,0 +1,1 @@
+console.error("SyntaxError: /Users/nehasharm/Desktop/code/react/pro3/src/routers.jsx: Unexpected token (12:3) while parsing file: /Users/nehasharm/Desktop/code/react/pro3/src/routers.jsx");

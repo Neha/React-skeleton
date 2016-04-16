@@ -1,0 +1,26 @@
+.container{
+		width:980px;
+		margin:0 auto;
+		padding:0 10px;
+		}
+	.mainr{
+			display: -webkit-flex; /* Safari */
+    		
+   		 	display: flex;
+
+	}
+	.contentr{
+			border:1px solid #ccc;
+			padding:5px;
+			width:300px;
+			
+			
+	}
+	header{
+		min-height: 90px;
+		background:red;
+		width: 100%;
+		align-items: center;
+    	-webkit-align-content: center; 
+    	display: flex;
+	}
