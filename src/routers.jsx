@@ -7,13 +7,11 @@ var Base = require('./components/base.jsx');
 var PageOne = require('./components/pageone.jsx');
 var PageTwo = require('./components/pageTwo.jsx');
 
-var RouteOne = {
-	return(
-			<Router>
-		<Route path="/PageOne" component= {PageOne}></Route>
-		<Route path="/pageTwo" component= {PageTwo}></Route>
-	</Router>
-		)
-}
+var RouteOne = (
+ <Router>
+ <Route path="/PageOne" component= {PageOne}></Route>
+ <Route path="/pageTwo" component= {PageTwo}></Route>
+ </Router>
+);
 
 module.exports = RouteOne;
